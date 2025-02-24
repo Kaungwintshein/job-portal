@@ -45,15 +45,16 @@
                         <li>
                             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6765429678043303"
                             crossorigin="anonymous"></script>
-                       <ins class="adsbygoogle"
-                            style="display:block"
-                            data-ad-format="fluid"
-                            data-ad-layout-key="-f1-1s-2h-op+1r5"
-                            data-ad-client="ca-pub-6765429678043303"
-                            data-ad-slot="1349285859"></ins>
-                       <script>
-                            (adsbygoogle = window.adsbygoogle || []).push({});
-                       </script>
+                            <ins class="adsbygoogle"
+                                style="display:block"
+                                data-ad-format="fluid"
+                                data-ad-layout-key="-f1-1s-2h-op+1r5"
+                                data-ad-client="ca-pub-6765429678043303"
+                                data-ad-slot="1349285859">
+                            </ins>
+                            <script>
+                                    (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
                        </li>
                         <!-- job start --> 
 
@@ -68,7 +69,25 @@
 
                             <?php if($count_1 == 7) {?>
 
-                                <li class="col-lg-12"><div class="jobint text-center">{!! $siteSetting->listing_page_horizontal_ad !!}</div></li>
+                                <li class="col-lg-12">
+                                    <div class="jobint text-center">
+                                        {{-- {!! $siteSetting->listing_page_horizontal_ad !!} --}}
+                                        <li>
+                                            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6765429678043303"
+                                            crossorigin="anonymous"></script>
+                                            <ins class="adsbygoogle"
+                                                style="display:block"
+                                                data-ad-format="fluid"
+                                                data-ad-layout-key="-f1-1s-2h-op+1r5"
+                                                data-ad-client="ca-pub-6765429678043303"
+                                                data-ad-slot="1349285859">
+                                            </ins>
+                                            <script>
+                                                    (adsbygoogle = window.adsbygoogle || []).push({});
+                                            </script>
+                                       </li>
+                                    </div>
+                                </li>
 
                             <?php }else{ ?>
 
