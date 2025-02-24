@@ -28,6 +28,8 @@ if (!isset($seo)) {
 
     <meta name="Keywords" content="{!! $seo->seo_keywords !!}">
 
+    <meta name="google-adsense-account" content="ca-pub-6765429678043303">
+    
     {!! $seo->seo_other !!}
 
     <!-- Fav Icon -->
@@ -87,8 +89,6 @@ if (!isset($seo)) {
     {!! $siteSetting->google_tag_manager_for_head !!}
 
 </head>
-
-
 
 <body>
 
