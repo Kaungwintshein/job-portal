@@ -19,6 +19,19 @@ $company = $job->getCompany();
 
 <div class="listpgWraper">
     <div class="container"> 
+        <div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6765429678043303"
+                crossorigin="anonymous"></script>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-format="fluid"
+                data-ad-layout-key="-f1-1s-2h-op+1r5"
+                data-ad-client="ca-pub-6765429678043303"
+                data-ad-slot="1349285859"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
         @include('flash::message')
        
 
@@ -228,6 +241,21 @@ $company = $job->getCompany();
                         <h3><i class="fas fa-map-marker" aria-hidden="true"></i> {{__('Google Map')}}</h3>
                         <div class="gmap">
                             {!!$company->map!!}
+                        </div>
+                    </div>
+                    <div class="">
+                        <div>
+                            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6765429678043303"
+                                crossorigin="anonymous"></script>
+                            <ins class="adsbygoogle"
+                                style="display:block"
+                                data-ad-format="fluid"
+                                data-ad-layout-key="-f1-1s-2h-op+1r5"
+                                data-ad-client="ca-pub-6765429678043303"
+                                data-ad-slot="1349285859"></ins>
+                            <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
                         </div>
                     </div>
                 </div>
